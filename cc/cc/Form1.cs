@@ -230,6 +230,7 @@ namespace cc
             }
             str = head + str;
             this.richTextBox5.Text = str;
+            Console.WriteLine(str);
         }
 
         private void richTextBox1_MouseDoubleClick(object sender, MouseEventArgs e)
